@@ -1,0 +1,14 @@
+apiVersion: v1
+entries:
+  opsbridge:
+  - apiVersion: v2
+    appVersion: 1.0.0
+    created: "2026-02-13T20:20:26.45968472Z"
+    description: A Helm chart for the Mattermost-Gitea bridge
+    digest: 5161c716deef61a2f4ac3fc4baec68805c1054269c01a917aebc8797f20f3126
+    name: opsbridge
+    type: application
+    urls:
+    - https://github.com/nihaldivyam/helm-charts/releases/download/opsbridge-0.1.0/opsbridge-0.1.0.tgz
+    version: 0.1.0
+generated: "2026-02-13T20:20:26.459690801Z"
