@@ -1,9 +1,9 @@
 replicaCount: 1
 
 image:
-  repository: youracr.azurecr.io/opsbridge
+  repository: ghcr.io/nihaldivyam/opsbridge
   pullPolicy: Always
-  tag: "v1.0.0"
+  tag: "latest"
 
 # Target namespace for the deployment
 namespace: monitoring
@@ -18,8 +18,8 @@ config:
   mattermostUrl: "https://chat.obmondo.com"
 
   # Dynamic Routing
-  qaChannelName: "kilroy-alerts-qa"
-  qaChannelTags: "@hritik @sidharth @smahar @franco-david @yulian @nitish0 @olayinka @kanha @onkar @gaurav"
+  qaChannelName: "alerts-qa"
+  qaChannelTags: "@onkar @gaurav"
   defaultAlertTags: "@operation"
 
 # Sensitive tokens
